@@ -12,7 +12,7 @@ yarn global add yo
 This package is not being published to npm. To be able to run, clone this repository and run:
 
 ```
-npm link
+yarn link
 ```
 
 Then generate the new project:
