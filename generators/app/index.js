@@ -42,6 +42,7 @@ module.exports = class extends Generator {
 
   writing() {
     const plainFiles = [
+      ".vscode/launch.json",
       "src/__tests__/index.spec.ts",
       "src/index.ts",
       ".editorconfig",

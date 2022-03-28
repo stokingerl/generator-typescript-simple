@@ -14,6 +14,7 @@ describe("generator-typescript-simple:app", () => {
 
   it("creates files", async () => {
     await setUp(prompts);
+    assert.file(".vscode/launch.json");
     assert.file("src/__tests__/index.spec.ts");
     assert.file("src/index.ts");
     assert.file(".editorconfig");
